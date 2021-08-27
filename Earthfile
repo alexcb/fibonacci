@@ -24,3 +24,4 @@ run:
     RUN test "$(cat fib-3)" = "2"
     RUN test "$(cat fib-4)" = "3"
     RUN test "$(cat fib-5)" = "5"
+    RUN echo finished
